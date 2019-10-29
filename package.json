@@ -1,0 +1,33 @@
+{
+  "name": "ubiquiti-test-chat-backend",
+  "version": "0.0.1",
+  "repository": "https://github.com/Valeriyspk/chat-backend.git",
+  "author": "Valeriy Krupenin",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "eslint-try-to-fix": "./node_modules/.bin/eslint --fix --ignore-path .gitignore .",
+    "eslint-check": "eslint --ignore-path .gitignore .",
+    "audit": "yarn audit",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-session": "^1.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "express-ws": "^4.0.0",
+    "helmet": "^3.21.2",
+    "keygrip": "^1.1.0",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-security": "^1.4.0",
+    "prettier": "^1.18.2"
+  }
+}
