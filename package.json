@@ -19,7 +19,7 @@
     "express-ws": "^4.0.0",
     "helmet": "^3.21.2",
     "keygrip": "^1.1.0",
-    "ws": "^7.2.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
